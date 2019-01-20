@@ -2,7 +2,7 @@ body {
   /* Old browsers */
   background: #141E30;
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  background: -webkit-linear-gradient(-45deg, #35577D, #d1d1d1);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(-45deg, #fff, #000);
   margin: 0;
@@ -65,7 +65,7 @@ p {
   background-image: url("https://telegra.ph/file/09857eedb84659b60f887.png");
   background-size: cover;
   background-position: center;
-  height: 300px;
+  width: 100%;
 }
 
 .writer-img {
@@ -73,5 +73,5 @@ p {
   -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
   box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
   float: none;
-  width: 200px;
+  width: 500px;
 }
